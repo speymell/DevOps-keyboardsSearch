@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Экспертная система</title>
+    <link rel="stylesheet" href="style.css" class="css" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <label class="switch" title="Сменить тему оформления">
+      <input type="checkbox" id="themeToggle" />
+      <span class="slider"></span>
+    </label>
+    <header>
+      <h1 style="text-align: center; margin-bottom: 20px">
+        Экспертная система "Выбор клавиатуры"
+      </h1>
+    </header>
+    <div id="welcomeScreen">
+      <p class="helloText">Здравствуйте, уважаемый пользователь 👋</p>
+      <p class="helloText">
+        Вы собираетесь воспользоваться экспертной системой подбора клавиатуры.
+      </p>
+      <div class="guideText">
+        Перед началом работы, пожалуйста, ознакомьтесь с
+        <a href="./guide.html" target="_blank">инструкцией</a>
+      </div>
+      <button id="startButton">Начать подбор клавиатуры</button>
+      <br />
+      <button id="switchToExpert">Перейти в режим эксперта</button>
+    </div>
+    <div id="questionContainer" style="display: none">
+      <h2 id="questionText">Загрузка вопроса...</h2>
+      <div class="questionButtons">
+        <div class="questionYesNo">
+          <button id="yesButton">Да</button>
+          <button id="noButton">Нет</button>
+          <br />
+          <button id="prevQuestionButton" style="display: none">Назад</button>
+          <br />
+          <button id="exitTest">Выход</button>
+        </div>
+      </div>
+    </div>
+    <div id="resultContainer">
+      <div class="resultVariant">
+        Вам отлично подойдёт клавиатура:
+        <span id="resultText"></span>
+      </div>
+      <div id="resultImageContainer" style="display: none">
+        <img id="resultImage" src="" alt="Клавиатура" />
+      </div>
+      <p id="resultPath"></p>
+      <button id="restartTestButton">Начать заново</button>
+    </div>
+
+    <div id="expertContainer">
+      <div class="firstBlock">
+        <h2>Редактирование правил</h2>
+        <label for="searchRuleId">Поиск правила по ID:</label>
+        <br />
+        <input type="number" id="searchRuleId" />
+        <button id="searchRuleButton">Поиск</button>
+        <br />
+        <label for="questionId">ID:</label>
+        <input type="number" id="questionId" readonly />
+        <br />
+        <label for="questionTextInput">Вопрос:</label>
+        <input type="text" id="questionTextInput" />
+        <br />
+        <label for="yesLink">Ссылка "Да":</label>
+        <input type="number" id="yesLink" />
+        <br />
+        <label for="noLink">Ссылка "Нет":</label>
+        <input type="number" id="noLink" />
+        <br />
+        <label for="keyField">Ключевое поле:</label>
+        <input type="number" id="keyField" min="0" max="1" />
+        <br />
+        <label for="negativeField">Негативный вопрос:</label>
+        <input type="text" id="negativeField" />
+        <br />
+        <button id="saveChanges">Сохранить изменения</button>
+        <br />
+        <button id="prevRule">Назад</button>
+        <button id="nextRule">Вперед</button>
+
+        <br />
+        <button id="firstRule">В начало</button>
+        <button id="lastRule">В конец</button>
+        <br />
+        <button id="addRule">Добавить новое правило</button>
+
+        <button id="switchToUser">Перейти в режим пользователя</button>
+      </div>
+      <div id="knowledgeBaseTableContainer">
+        <table id="knowledgeBaseTable" style="display: none">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Вопрос</th>
+              <th>Ссылка "Да"</th>
+              <th>Ссылка "Нет"</th>
+              <th>Ключевое поле</th>
+              <th>Негативный вопрос</th>
+            </tr>
+          </thead>
+          <tbody id="knowledgeBaseTableBody"></tbody>
+        </table>
+      </div>
+      <div id="uploadImageContainer">
+        <h2>Загрузка изображения клавиатуры</h2>
+        <label for="keyboardId">Введите ID клавиатуры:</label>
+        <input type="number" id="keyboardId" required />
+        <br />
+        <label for="imageUpload">Выберите изображение:</label>
+        <input type="file" id="imageUpload" accept="image/*" required />
+        <br />
+        <button id="uploadImageButton">Загрузить изображение</button>
+      </div>
+
+      <div id="keyboardList">
+        <h2>Список клавиатур с изображениями</h2>
+        <ul id="keyboardListContainer"></ul>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("startButton")
+        .addEventListener("click", function () {
+          document.getElementById("welcomeScreen").style.display = "none";
+          document.getElementById("questionContainer").style.display = "block";
+        });
+
+      let currentQuestionId = 1; // Начальный вопрос
+      let questionsData = [];
+      let questionHistory = []; // Массив для хранения истории вопросов
+      let currentRuleIndex = 0; // Индекс текущего правила
+
+      async function fetchQuestionsData() {
+        const response = await fetch(
+          `http://176.108.253.74:3000/data?timestamp=${new Date().getTime()}`
+        );
+        if (response.ok) {
+          questionsData = await response.json();
+          loadQuestion(); // Загружаем первый вопрос
+        } else {
+          alert("Ошибка при загрузке данных");
+        }
+      }
+
+      document
+        .getElementById("exitTest")
+        .addEventListener("click", function () {
+          const confirmation = confirm("Вы точно хотите завершить опрос?");
+
+          if (confirmation) {
+            document.getElementById("questionContainer").style.display = "none";
+
+            document.getElementById("welcomeScreen").style.display = "block";
+          }
+        });
+
+      async function loadQuestion() {
+        const response = await fetch("http://176.108.253.74:3000/ask", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ currentQuestionId }),
+        });
+
+        if (response.ok) {
+          const data = await response.json(); // Получаем данные текущего вопроса
+          console.log("Полученные данные:", data);
+
+          if (data.result) {
+            // Если есть результат, показываем его
+            document.getElementById("questionContainer").style.display = "none";
+            document.getElementById("resultContainer").style.display = "block";
+            document.getElementById("resultText").innerText =
+              data.result + "⌨️";
+
+            // Выводим путь к результату
+            const path = questionHistory
+              .map((q) => `${q.question} - ${q.answer}`)
+              .join("\n");
+            document.getElementById(
+              "resultPath"
+            ).innerText = `Ваши ответы: \n${path}`;
+
+            // Получаем ID изображения из текущего вопроса
+            const imageId = currentQuestionId; // Используем currentQuestionId для получения ID изображения
+            console.log("ID изображения:", imageId);
+
+            if (imageId !== undefined && imageId !== null) {
+              const imageUrl = `./img/keyboards/${imageId}.webp`;
+
+              // Проверяем наличие изображения
+              const imageExists = await checkImageExists(imageUrl);
+              if (imageExists) {
+                document.getElementById("resultImage").src = imageUrl;
+                document.getElementById("resultImageContainer").style.display =
+                  "block"; // Показываем контейнер с изображением
+              } else {
+                document.getElementById("resultImageContainer").style.display =
+                  "none"; // Скрываем, если изображения нет
+              }
+            } else {
+              console.error("ID изображения не найден.");
+              document.getElementById("resultImageContainer").style.display =
+                "none"; // Скрываем, если ID нет
+            }
+          } else {
+            // Если результата нет, показываем вопрос
+            document.getElementById("questionText").innerText = data.question;
+
+            // Сохраняем текущий вопрос перед добавлением нового в историю
+            const previousQuestionId = currentQuestionId;
+
+            // Устанавливаем обработчики событий для кнопок "Да" и "Нет"
+            document.getElementById("yesButton").onclick = () => {
+              questionHistory.push({
+                id: previousQuestionId,
+                question: data.question,
+                answer: "Да",
+              });
+              currentQuestionId = data.yes;
+              console.log("История после 'Да':", questionHistory);
+              loadQuestion();
+              document.getElementById("prevQuestionButton").style.display =
+                "block"; // Показываем кнопку "Назад"
+            };
+
+            document.getElementById("restartTestButton").onclick = () => {
+              // Сбрасываем все переменные
+              currentQuestionId = 1; // Сбрасываем ID текущего вопроса
+              questionHistory = []; // Очищаем историю вопросов
+
+              // Скрываем контейнер с результатами и показываем экран приветствия
+              document.getElementById("resultContainer").style.display = "none";
+              document.getElementById("welcomeScreen").style.display = "block"; // Показываем экран приветствия
+              document.getElementById("questionContainer").style.display =
+                "none"; // Скрываем контейнер вопросов
+
+              // Загружаем первый вопрос
+              loadQuestion();
+            };
+
+            document.getElementById("prevQuestionButton").onclick = () => {
+              if (questionHistory.length > 0) {
+                const lastQuestion = questionHistory.pop(); // Удаляем последний вопрос из истории
+                currentQuestionId = lastQuestion.id; // Возвращаемся к идентификатору предыдущего вопроса
+                console.log("Возвращаемся к вопросу с ID:", currentQuestionId);
+                loadQuestion(); // Загружаем предыдущий вопрос
+
+                // Если больше нет вопросов в истории, скрываем кнопку "Назад"
+                if (questionHistory.length === 0) {
+                  document.getElementById("prevQuestionButton").style.display =
+                    "none";
+                }
+              }
+            };
+
+            document.getElementById("noButton").onclick = () => {
+              questionHistory.push({
+                id: previousQuestionId,
+                question: data.question,
+                answer: "Нет",
+              });
+              currentQuestionId = data.no;
+              console.log("История после 'Нет':", questionHistory);
+              loadQuestion();
+              document.getElementById("prevQuestionButton").style.display =
+                "block"; // Показываем кнопку "Назад"
+            };
+          }
+        } else {
+          console.error("Ошибка при получении вопроса:", response.statusText);
+          document.getElementById("questionText").innerText =
+            "Ошибка при получении вопроса";
+        }
+      }
+
+      // Функция для проверки существования изображения
+      async function checkImageExists(url) {
+        return new Promise((resolve) => {
+          const img = new Image();
+          img.src = url;
+          img.onload = () => resolve(true);
+          img.onerror = () => resolve(false);
+        });
+      }
+
+      document.getElementById("uploadImageButton").onclick = async () => {
+        const keyboardId = document.getElementById("keyboardId").value; // Получаем ID клавиатуры
+        const imageFile = document.getElementById("imageUpload").files[0]; // Получаем файл изображения
+
+        if (!keyboardId || !imageFile) {
+          alert("Пожалуйста, укажите ID клавиатуры и выберите изображение.");
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("image", imageFile); // Добавляем файл изображения
+        formData.append("id", keyboardId); // Добавляем ID клавиатуры
+
+        try {
+          const response = await fetch(
+            "http://176.108.253.74:3000/upload-image",
+            {
+              method: "POST",
+              body: formData,
+            }
+          );
+
+          if (response.ok) {
+            const result = await response.json();
+            alert(result.message); // Уведомление об успешной загрузке
+            fetchKeyboardList();
+          } else {
+            const error = await response.json();
+            alert("Ошибка: " + error.error); // Уведомление об ошибке
+          }
+        } catch (error) {
+          console.error("Ошибка:", error);
+          alert("Не удалось загрузить изображение: " + error.message);
+        }
+      };
+
+      function loadRule() {
+        const rule = questionsData.questions[currentRuleIndex];
+        if (rule) {
+          document.getElementById("questionId").value = rule.id;
+          document.getElementById("questionTextInput").value = rule.question;
+          document.getElementById("yesLink").value = rule.yes;
+          document.getElementById("noLink").value = rule.no;
+          document.getElementById("keyField").value = rule.key_field;
+          document.getElementById("negativeField").value = rule.negative;
+        } else {
+          alert("Правило не найдено.");
+        }
+      }
+
+      document.getElementById("firstRule").onclick = () => {
+        currentRuleIndex = 0; // Устанавливаем индекс на 0 (первое правило)
+        loadRule(); // Загружаем первое правило
+      };
+
+      document.getElementById("lastRule").onclick = () => {
+        currentRuleIndex = questionsData.questions.length - 1; // Устанавливаем индекс на последний элемент
+        loadRule(); // Загружаем последнее правило
+      };
+
+      document.getElementById("switchToExpert").onclick = async () => {
+        // Элемент для затемнения фона
+        const overlay = document.createElement("div");
+        overlay.style.position = "fixed";
+        overlay.style.top = "0";
+        overlay.style.left = "0";
+        overlay.style.width = "100%";
+        overlay.style.height = "100%";
+        overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+        overlay.style.zIndex = "999";
+
+        const passwordInput = document.createElement("input");
+        passwordInput.style.padding = "6px";
+        passwordInput.style.border = "1px solid black";
+        passwordInput.style.marginRight = "8px";
+        passwordInput.type = "password";
+        passwordInput.placeholder = "Введите пароль:";
+
+        // Создаем элемент для отображения модального окна
+        const modal = document.createElement("div");
+        modal.style.position = "fixed";
+        modal.style.top = "50%";
+        modal.style.left = "50%";
+        modal.style.transform = "translate(-50%, -50%)";
+        modal.style.backgroundColor = "white";
+        modal.style.padding = "30px";
+        modal.style.border = "1px solid red";
+        modal.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.5)";
+        modal.style.zIndex = "1000"; // Устанавливаем z-index выше overlay
+        modal.style.display = "flex";
+        modal.style.justifyContent = "center";
+        modal.style.alignItems = "center";
+
+        modal.appendChild(passwordInput);
+
+        const confirmButton = document.createElement("button");
+        confirmButton.innerText = "Подтвердить";
+        modal.appendChild(confirmButton);
+
+        const cancelButton = document.createElement("button");
+        cancelButton.innerText = "Отмена";
+        cancelButton.style.marginLeft = "10px";
+        modal.appendChild(cancelButton);
+
+        // Добавляем модальное окно и затемнение на страницу
+        document.body.appendChild(overlay);
+        document.body.appendChild(modal);
+
+        // Обработчик нажатия на кнопку подтверждения
+        confirmButton.onclick = async () => {
+          const password = passwordInput.value;
+          if (password === "admin") {
+            document.getElementById("welcomeScreen").style.display = "none";
+            document.getElementById("questionContainer").style.display = "none";
+            document.getElementById("expertContainer").style.display = "block";
+            document
+              .getElementById("expertContainer")
+              .classList.add("expertContainer-show");
+
+            // Загружаем данные вопросов
+            await fetchQuestionsData(); // Обновляем данные
+            loadRule(); // Загружаем текущее правило для отображения в редакторе
+          } else {
+            alert("Неправильный пароль");
+          }
+
+          // Удаляем модальное окно и затемнение после ввода
+          document.body.removeChild(modal);
+          document.body.removeChild(overlay);
+        };
+
+        // Обработчик нажатия на кнопку "Отмена"
+        cancelButton.onclick = () => {
+          document.body.removeChild(modal);
+          document.body.removeChild(overlay);
+        };
+
+        // Добавляем обработчик для закрытия модального окна при клике на затемнение
+        overlay.onclick = () => {
+          document.body.removeChild(modal);
+          document.body.removeChild(overlay);
+        };
+      };
+
+      document.getElementById("switchToUser").onclick = async () => {
+        document
+          .getElementById("expertContainer")
+          .classList.remove("expertContainer-show");
+        document.getElementById("expertContainer").style.display = "none";
+        document.getElementById("welcomeScreen").style.display = "block"; // Показываем экран приветствия
+        document.getElementById("questionContainer").style.display = "none"; // Показываем контейнер вопросов
+
+        // Загружаем обновленные данные вопросов
+        await fetchQuestionsData(); // Обновляем данные
+        loadQuestion(); // Загружаем первый вопрос
+      };
+
+      document.getElementById("saveChanges").onclick = async () => {
+        const updatedRule = {
+          id: parseInt(document.getElementById("questionId").value),
+          question: document.getElementById("questionTextInput").value,
+          yes: parseInt(document.getElementById("yesLink").value),
+          no: parseInt(document.getElementById("noLink").value),
+          key_field: parseInt(document.getElementById("keyField").value),
+          negative: document.getElementById("negativeField").value,
+        };
+
+        // Проверяем существование ссылок
+        const yesExists = questionsData.questions.some(
+          (q) => q.id === updatedRule.yes
+        );
+        const noExists = questionsData.questions.some(
+          (q) => q.id === updatedRule.no
+        );
+
+        if (!yesExists && updatedRule.yes !== 0) {
+          alert("Ошибка: Ссылка 'Да' не существует.");
+          return;
+        }
+
+        if (!noExists && updatedRule.no !== 0) {
+          alert("Ошибка: Ссылка 'Нет' не существует.");
+          return;
+        }
+
+        questionsData.questions[currentRuleIndex] = updatedRule;
+
+        // Сохранение данных на сервере
+        try {
+          const response = await fetch("http://176.108.253.74:3000/save", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(questionsData),
+          });
+
+          if (!response.ok) {
+            throw new Error("Ошибка при сохранении данных на сервере");
+          }
+
+          alert("Изменения сохранены");
+
+          // Обновляем таблицу без перезагрузки страницы
+          displayKnowledgeBase(); // Обновляем данные в таблице
+        } catch (error) {
+          console.error("Ошибка:", error);
+          alert("Не удалось сохранить изменения: " + error.message);
+        }
+      };
+
+      document.getElementById("prevRule").onclick = () => {
+        if (currentRuleIndex > 0) {
+          currentRuleIndex--;
+          loadRule();
+        }
+      };
+
+      document.getElementById("nextRule").onclick = () => {
+        if (currentRuleIndex < questionsData.questions.length - 1) {
+          currentRuleIndex++;
+          loadRule();
+        }
+      };
+
+      // Проверяем, есть ли сохраненная тема в localStorage
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "dark") {
+        document.body.classList.add("dark-theme");
+        document.getElementById("themeToggle").checked = true; // Устанавливаем состояние переключателя
+      }
+
+      // Функция для переключения темы
+      function toggleTheme() {
+        document.body.classList.toggle("dark-theme");
+        // Сохраняем текущую тему в localStorage
+        if (document.body.classList.contains("dark-theme")) {
+          localStorage.setItem("theme", "dark");
+        } else {
+          localStorage.setItem("theme", "light");
+        }
+      }
+
+      // Добавляем обработчик события для кнопки переключения темы
+      document.getElementById("themeToggle").onclick = toggleTheme;
+
+      document.getElementById("addRule").onclick = async () => {
+        const newRule = {
+          question: document.getElementById("questionTextInput").value,
+          yes: 0, // Ссылка "Да" по умолчанию
+          no: 0, // Ссылка "Нет" по умолчанию
+          key_field: parseInt(document.getElementById("keyField").value) || 0,
+          negative: document.getElementById("negativeField").value || "",
+        };
+
+        // Находим максимальный ID, чтобы присвоить новый
+        const maxId = questionsData.questions.reduce(
+          (max, q) => (q.id > max ? q.id : max),
+          0
+        );
+        newRule.id = maxId + 1; // Присваиваем новый ID
+
+        // Отправка нового правила на сервер
+        try {
+          const response = await fetch("http://176.108.253.74:3000/add-rule", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(newRule),
+          });
+
+          if (response.ok) {
+            alert("Новое правило успешно добавлено");
+            fetchQuestionsData(); // Обновляем данные после добавления
+            location.reload();
+          } else {
+            throw new Error("Ошибка при добавлении нового правила");
+          }
+        } catch (error) {
+          console.error("Ошибка:", error);
+          alert("Не удалось добавить новое правило: " + error.message);
+        }
+      };
+
+      async function fetchKeyboardList() {
+        try {
+          const response = await fetch("http://176.108.253.74:3000/keyboards");
+          if (response.ok) {
+            const keyboards = await response.json();
+            displayKeyboardList(keyboards);
+          } else {
+            throw new Error("Ошибка при загрузке списка клавиатур");
+          }
+        } catch (error) {
+          console.error("Ошибка:", error);
+          alert("Не удалось загрузить список клавиатур: " + error.message);
+        }
+      }
+
+      function displayKeyboardList(keyboards) {
+        const keyboardListContainer = document.getElementById(
+          "keyboardListContainer"
+        );
+        keyboardListContainer.innerHTML = ""; // Очищаем контейнер
+
+        keyboards.forEach((keyboard) => {
+          const listItem = document.createElement("li");
+
+          // Создаем ссылку на изображение
+          const imageLink = document.createElement("a");
+          imageLink.href = keyboard.imagePath; // Путь к изображению
+          imageLink.target = "_blank"; // Открывать в новой вкладке
+          imageLink.textContent = `ID: ${keyboard.id}, Изображение`;
+
+          // Кнопка для удаления
+          const deleteButton = document.createElement("button");
+          deleteButton.textContent = "❌";
+          deleteButton.onclick = async () => {
+            const confirmed = confirm(
+              "Вы уверены, что хотите удалить это изображение?"
+            );
+            if (confirmed) {
+              await deleteImage(keyboard.id);
+              fetchKeyboardList(); // Обновляем список после удаления
+            }
+          };
+
+          // Добавляем ссылку и кнопку в элемент списка
+          listItem.appendChild(imageLink);
+          listItem.appendChild(deleteButton);
+          keyboardListContainer.appendChild(listItem);
+        });
+      }
+
+      async function deleteImage(keyboardId) {
+        console.log(keyboardId);
+
+        try {
+          const response = await fetch(
+            `http://176.108.253.74:3000/delete-image/${keyboardId}`,
+            {
+              method: "DELETE",
+            }
+          );
+
+          if (!response.ok) {
+            throw new Error("Ошибка при удалении изображения");
+          }
+
+          alert("Изображение успешно удалено!");
+        } catch (error) {
+          console.error("Ошибка:", error);
+          alert("Не удалось удалить изображение: " + error.message);
+        }
+      }
+
+      fetchKeyboardList();
+
+      // Функция для вывода базы знаний в таблицу
+      function displayKnowledgeBase() {
+        const knowledgeBaseTableBody = document.getElementById(
+          "knowledgeBaseTableBody"
+        );
+        knowledgeBaseTableBody.innerHTML = ""; // Очищаем таблицу
+
+        questionsData.questions.forEach((rule) => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${rule.id}</td>
+            <td>${rule.question}</td>
+            <td>${rule.yes}</td>
+            <td>${rule.no}</td>
+            <td>${rule.key_field}</td>
+            <td>${rule.negative}</td>
+        `;
+          knowledgeBaseTableBody.appendChild(row);
+        });
+
+        document.getElementById("knowledgeBaseTable").style.display = "block"; // Показываем таблицу
+      }
+
+      // Вызываем функцию для вывода базы знаний при загрузке данных
+      fetchQuestionsData().then(() => {
+        displayKnowledgeBase();
+      });
+
+      document.getElementById("searchRuleButton").onclick = () => {
+        const searchRuleId = parseInt(
+          document.getElementById("searchRuleId").value
+        );
+        const rule = questionsData.questions.find((q) => q.id === searchRuleId);
+        if (rule) {
+          currentRuleIndex = questionsData.questions.indexOf(rule);
+          loadRule();
+        } else {
+          alert("Правило не найдено.");
+        }
+      };
+
+      // Начинаем с загрузки данных
+      fetchQuestionsData();
+    </script>
+  </body>
+</html>

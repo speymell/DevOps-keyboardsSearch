@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Ledger&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#questionContainer,
+#expertContainer {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#expertContainer input {
+  margin-block: 6px;
+  width: 200px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#resultContainer {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background: #e7f3fe;
+  border: 1px solid #b3d4fc;
+  border-radius: 5px;
+}
+#expertContainer {
+  display: none;
+}
+
+#switchToExpert {
+  width: 220px;
+  background-color: #db5c5c;
+}
+
+.questionButtons {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#addRule {
+  background-color: green;
+}
+
+#deleteRule {
+  background-color: red;
+}
+
+#welcomeScreen {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.resultVariant {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.helloText {
+  font-size: 22px;
+}
+
+.guideText {
+  margin-block: 20px;
+}
+
+#modalW {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalWContent {
+  position: relative;
+}
+
+#closeWModal {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+#expertContainer.expertContainer-show {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.guideHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#uploadImageContainer {
+  width: 100%;
+  border-top: 2px dotted #ccc;
+}
+
+#keyboardList {
+  width: 100%;
+}
+
+#keyboardListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+}
+
+#keyboardListContainer li {
+  border: 1px solid #333;
+  padding-inline: 6px;
+}
+
+#keyboardListContainer button {
+  background-color: transparent;
+}
+
+#exitTest {
+  background-color: #db5c5c;
+  margin-top: 50px;
+}
+
+#exitTest:hover {
+  background-color: rgb(150, 40, 20);
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-theme .sectionHeader {
+  color: #fff;
+}
+
+body.dark-theme .guideHeader {
+  background-color: transparent;
+  border: none;
+}
+
+.dark-theme #questionContainer,
+.dark-theme #expertContainer {
+  background: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #a1a1a1;
+}
+
+.dark-theme button {
+  background-color: #007bff;
+  color: white;
+}
+
+.dark-theme #resultContainer {
+  background: #1e1e1e;
+  border: 1px solid #333;
+}
+
+#resultImage {
+  width: 256px;
+  height: 256px;
+  object-fit: cover;
+  margin-block: 16px;
+}
+
+.dark-theme #knowledgeBaseTable th {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.dark-theme a,
+.dark-theme a:visited {
+  color: #bb86fc;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "☀️"; /* Иконка солнца по умолчанию */
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+  content: "🌙"; /* Иконка луны при темной теме */
+}
+
+input:checked + .slider .icon-sun {
+  display: none; /* Скрываем солнце при темной теме */
+}
+
+input:checked + .slider .icon-moon {
+  display: block; /* Показываем луну при темной теме */
+}
+
+input:not(:checked) + .slider .icon-sun {
+  display: block; /* Показываем солнце при светлой теме */
+}
+
+input:not(:checked) + .slider .icon-moon {
+  display: none; /* Скрываем луну при светлой теме */
+}
+
+.firstBlock {
+  max-width: 25%;
+}
+
+#knowledgeBaseTableContainer {
+  overflow-y: auto;
+  max-height: 600px;
+  margin-left: 20px;
+  max-width: 70%;
+}
+
+#knowledgeBaseTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#knowledgeBaseTable th,
+#knowledgeBaseTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#knowledgeBaseTable th {
+  background-color: #f0f0f0;
+}
+
+a,
+a:visited {
+  color: #db5c5c;
+}
+
+/* Guide */
+
+.guideHeader {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background: rgb(248, 242, 242);
+  padding: 10px 30px;
+  width: 1200px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 40px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+ul h3 {
+  padding: 0;
+}
+
+.guideSection {
+  font-size: 20px;
+  padding-inline: 40px;
+}
+
+.imgWrapper {
+  margin-block: 40px;
+  max-width: 100%;
+}
+
+.guideSection img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  border: 1px dotted black;
+}
+
+.common-text {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+body.dark-theme .navList li a,
+body.dark-theme navList li a:visited {
+  color: #bb86fc;
+}
+
+.navList li a,
+navList li a:visited {
+  color: #003d8d;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sectionHeader {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}

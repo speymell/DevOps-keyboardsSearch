@@ -1,0 +1,3620 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Клавиатура механическая?",
+      "yes": 312,
+      "no": 2,
+      "key_field": 1,
+      "negative": "Клавиатура не механическая"
+    },
+    {
+      "id": 2,
+      "question": "Клавиатура мембранная?",
+      "yes": 112,
+      "no": 3,
+      "key_field": 1,
+      "negative": "Клавиатура не мембранная"
+    },
+    {
+      "id": 3,
+      "question": "Клавиатура гибридная?",
+      "yes": 4,
+      "no": 111,
+      "key_field": 1,
+      "negative": "Клавиатура не гибридная"
+    },
+    {
+      "id": 4,
+      "question": "Нужна подсветка?",
+      "yes": 5,
+      "no": 76,
+      "key_field": 1,
+      "negative": "Подсветка не нужна"
+    },
+    {
+      "id": 5,
+      "question": "Клавиатура игровая?",
+      "yes": 6,
+      "no": 69,
+      "key_field": 1,
+      "negative": "Клавиатура не игровая"
+    },
+    {
+      "id": 6,
+      "question": "Клавиатура проводная?",
+      "yes": 7,
+      "no": 38,
+      "key_field": 1,
+      "negative": "Клавиатура не проводная"
+    },
+    {
+      "id": 7,
+      "question": "Нужен numpad?",
+      "yes": 8,
+      "no": 23,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 8,
+      "question": "Нужна клавиша Fn?",
+      "yes": 9,
+      "no": 16,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 9,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 10,
+      "no": 13,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 10,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 11,
+      "no": 12,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 11,
+      "question": "A4Tech Bloody B318",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 12,
+      "question": "Razer Ornata V3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 13,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 14,
+      "no": 15,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 14,
+      "question": "A4Tech Bloody B319",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 15,
+      "question": "A4Tech Bloody B210",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 16,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 17,
+      "no": 20,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 17,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 18,
+      "no": 19,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000? рублей"
+    },
+    {
+      "id": 18,
+      "question": "A4Tech Bloody V3590R",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 19,
+      "question": "A4Tech Bloody Viper",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 20,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 21,
+      "no": 22,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 21,
+      "question": "MSI Vigor GK71 SONIC",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 22,
+      "question": "AULA F2088",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 23,
+      "question": "Нужна клавиша Fn?",
+      "yes": 24,
+      "no": 31,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 24,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 25,
+      "no": 28,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 25,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 26,
+      "no": 27,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 26,
+      "question": "Cidoo QK61",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 27,
+      "question": "UGREEN G102",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 28,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 29,
+      "no": 30,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 29,
+      "question": "Logitech GL Tactile",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 30,
+      "question": "AOC GK410",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 31,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 32,
+      "no": 35,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 32,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 33,
+      "no": 34,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 33,
+      "question": "Red Square Keyrox TKL Aquarius",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 34,
+      "question": "SteelSeries Apex 7 TKL",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 35,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 36,
+      "question": "ARDOR GAMING Blade PRO",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 37,
+      "question": "A4Tech KV-300",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 38,
+      "question": "Нужен numpad?",
+      "yes": 39,
+      "no": 54,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 39,
+      "question": "Нужна клавиша Fn?",
+      "yes": 40,
+      "no": 47,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 40,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 41,
+      "no": 44,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 41,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 42,
+      "no": 43,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 42,
+      "question": "Logitech MX Keys S",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 44,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 45,
+      "no": 46,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 45,
+      "question": "Barebone Hi75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 46,
+      "question": "JIMITU K590",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 47,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 48,
+      "no": 51,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 48,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 49,
+      "no": 50,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 49,
+      "question": "AULA F99",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 50,
+      "question": "AULA F98",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 51,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 52,
+      "no": 53,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 52,
+      "question": "JOMAA F10",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 53,
+      "question": "JOMAA F8",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 54,
+      "question": "Нужна клавиша Fn?",
+      "yes": 55,
+      "no": 62,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 55,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 56,
+      "no": 59,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 56,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 57,
+      "no": 58,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 57,
+      "question": "Rapoo E1000",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 58,
+      "question": "Rapoo E9300G",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 59,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 60,
+      "no": 61,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 60,
+      "question": "Rapoo E9500G",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 61,
+      "question": "Rapoo E9400G",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 62,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 63,
+      "no": 66,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 63,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 64,
+      "no": 65,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 64,
+      "question": "VONTAR A10",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 65,
+      "question": "VONTAR A7S",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 66,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 67,
+      "no": 68,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 67,
+      "question": "BOW 3 Fold",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 68,
+      "question": "BOW 3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 69,
+      "question": "Клавиатура проводная?",
+      "yes": 70,
+      "no": 73,
+      "key_field": 1,
+      "negative": "Клавиатура не проводная"
+    },
+    {
+      "id": 70,
+      "question": "Нужна клавиша Fn?",
+      "yes": 71,
+      "no": 72,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 71,
+      "question": "Michelle KC6000",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 72,
+      "question": "VBESTLIFE BT3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 73,
+      "question": "Нужна клавиша Fn?",
+      "yes": 74,
+      "no": 75,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 74,
+      "question": "ONEVAN Black",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 75,
+      "question": "ONEVAN White",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 76,
+      "question": "Клавиатура игровая?",
+      "yes": 77,
+      "no": 96,
+      "key_field": 1,
+      "negative": "Клавиатура не игровая"
+    },
+    {
+      "id": 77,
+      "question": "Клавиатура проводная?",
+      "yes": 78,
+      "no": 89,
+      "key_field": 1,
+      "negative": "Клавиатура не проводная"
+    },
+    {
+      "id": 78,
+      "question": "Нужен numpad?",
+      "yes": 79,
+      "no": 86,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 79,
+      "question": "Нужна клавиша Fn?",
+      "yes": 80,
+      "no": 83,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 80,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 81,
+      "no": 82,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 81,
+      "question": "CHYI 78",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 83,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 84,
+      "no": 85,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 84,
+      "question": "CHERRY KC6000",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 85,
+      "question": "Qumo Office Signature К69",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 86,
+      "question": "Нужна клавиша Fn?",
+      "yes": 87,
+      "no": 88,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 87,
+      "question": "Keychron K3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 88,
+      "question": "SteelSeries Apex Pro MINI",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 89,
+      "question": "Нужен numpad?",
+      "yes": 90,
+      "no": 93,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 90,
+      "question": "Нужна клавиша Fn?",
+      "yes": 91,
+      "no": 92,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 91,
+      "question": "CHERRY KC200",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 92,
+      "question": "VBESTLIFE BT2",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 93,
+      "question": "Нужна клавиша Fn?",
+      "yes": 94,
+      "no": 95,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 94,
+      "question": "Keychron Grus",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 95,
+      "question": "Keychron K2",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 96,
+      "question": "Клавиатура проводная?",
+      "yes": 97,
+      "no": 104,
+      "key_field": 1,
+      "negative": "Клавиатура не проводная"
+    },
+    {
+      "id": 97,
+      "question": "Нужен numpad?",
+      "yes": 98,
+      "no": 101,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 98,
+      "question": "Нужна клавиша Fn?",
+      "yes": 99,
+      "no": 100,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 99,
+      "question": "A4Tech Fstyler FBX51C",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 100,
+      "question": "Logitech MX Keys Mini",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 101,
+      "question": "Нужна клавиша Fn?",
+      "yes": 102,
+      "no": 103,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 102,
+      "question": "Apple Magic Keyboard",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 103,
+      "question": "Logitech Keys-To-Go",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 104,
+      "question": "Нужен numpad?",
+      "yes": 105,
+      "no": 108,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 105,
+      "question": "Нужна клавиша Fn?",
+      "yes": 106,
+      "no": 107,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 106,
+      "question": "Apple Magic Keyboard",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 107,
+      "question": "Gembird KBW-3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 108,
+      "question": "Нужна клавиша Fn?",
+      "yes": 109,
+      "no": 110,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 109,
+      "question": "Logitech Keys-To-Go",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 110,
+      "question": "JETACCESS SlimLine K7 BT",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 111,
+      "question": "Вы задали параметры несуществующей клавиатуры! (Ни гибридная, ни механическая, ни мембранная)",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 112,
+      "question": "Нужна подсветка?",
+      "yes": 113,
+      "no": 232,
+      "key_field": 1,
+      "negative": "Подсветка не нужна"
+    },
+    {
+      "id": 113,
+      "question": "Клавиатура игровая?",
+      "yes": 114,
+      "no": 177,
+      "key_field": 1,
+      "negative": "Клавиатура не игровая"
+    },
+    {
+      "id": 114,
+      "question": "Клавиатура проводная?",
+      "yes": 115,
+      "no": 146,
+      "key_field": 1,
+      "negative": "Клавиатура не проводная"
+    },
+    {
+      "id": 115,
+      "question": "Нужен numpad?",
+      "yes": 116,
+      "no": 131,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 116,
+      "question": "Нужна клавиша Fn?",
+      "yes": 117,
+      "no": 124,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 117,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 118,
+      "no": 121,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 118,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 119,
+      "no": 120,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 119,
+      "question": "Razer Ornata V3 X",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 120,
+      "question": "A4Tech Bloody B310N",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 121,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 122,
+      "no": 123,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 122,
+      "question": "Qumo Dragon War Spirit",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 123,
+      "question": "A4Tech Bloody Q100",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 124,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 125,
+      "no": 128,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 125,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 126,
+      "no": 127,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 126,
+      "question": "SteelSeries Apex 3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 127,
+      "question": "SteelSeries Apex 2",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 128,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 129,
+      "no": 130,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 129,
+      "question": "Logitech G213 Prodigy",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 130,
+      "question": "Gembird KBW-G11L",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 131,
+      "question": "Нужна клавиша Fn?",
+      "yes": 132,
+      "no": 139,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 132,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 133,
+      "no": 136,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 133,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 134,
+      "no": 135,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 134,
+      "question": "Razer Cynosa V2",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 135,
+      "question": "Razer Cynosa Lite",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 136,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 137,
+      "no": 138,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 137,
+      "question": "MSI Vigor GK20",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 138,
+      "question": "SVEN KB-G8300",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 139,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 140,
+      "no": 143,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 140,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 141,
+      "no": 142,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 141,
+      "question": "SteelSeries Apex 3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 142,
+      "question": "SteelSeries Apex 2",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 143,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 144,
+      "no": 145,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 144,
+      "question": "Logitech G213 Prodigy",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 145,
+      "question": "Gembird KB-G11L",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 146,
+      "question": "Нужен numpad?",
+      "yes": 147,
+      "no": 162,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 147,
+      "question": "Нужна клавиша Fn?",
+      "yes": 148,
+      "no": 155,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 148,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 149,
+      "no": 152,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 149,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 150,
+      "no": 151,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 150,
+      "question": "Logitech Signature K650",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 151,
+      "question": "SVEN KB-G8200",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 152,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 153,
+      "no": 154,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 153,
+      "question": "Logitech Signature K650",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 154,
+      "question": "Logitech K270",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 155,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 156,
+      "no": 159,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 156,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 157,
+      "no": 158,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 157,
+      "question": "ProtoArc XK01",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 158,
+      "question": "Logitech Wireless Keyboard",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 159,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 160,
+      "no": 161,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 160,
+      "question": "MOFii SeenDa",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 161,
+      "question": "Rapoo 9010M",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 162,
+      "question": "Нужна клавиша Fn?",
+      "yes": 163,
+      "no": 170,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 163,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 164,
+      "no": 167,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 164,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 165,
+      "no": 166,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 165,
+      "question": "Logitech MX Keys Mini Pale",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 166,
+      "question": "Logitech K380",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 167,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 168,
+      "no": 169,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 168,
+      "question": "Aula S99",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 169,
+      "question": "ALLOYSEED 68",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 170,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 171,
+      "no": 174,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 171,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 172,
+      "no": 173,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 172,
+      "question": "JIROAOTIC V98",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 173,
+      "question": "SMVP M87",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 174,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 175,
+      "no": 176,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 175,
+      "question": "JerRay V98-Vibrant",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 176,
+      "question": "Kebidumei 35",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 177,
+      "question": "Клавиатура проводная?",
+      "yes": 201,
+      "no": 0,
+      "key_field": 1,
+      "negative": "Клавиатура не проводная"
+    },
+    {
+      "id": 178,
+      "question": "Нужен numpad?",
+      "yes": 179,
+      "no": 194,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 179,
+      "question": "Нужна клавиша Fn?",
+      "yes": 180,
+      "no": 187,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 180,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 181,
+      "no": 184,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 181,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 182,
+      "no": 183,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 182,
+      "question": "IBN G87",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 183,
+      "question": "BY Rondache FULL SIZE ISO",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 184,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 185,
+      "no": 186,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 185,
+      "question": "Eurocell ZA87",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 186,
+      "question": "A4Tech Fstyler FK25",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 187,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 188,
+      "no": 191,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 188,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 189,
+      "no": 190,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 189,
+      "question": "Satechi Slim W3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 190,
+      "question": "Оклик 180V2",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 191,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 192,
+      "no": 193,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 192,
+      "question": "EVGA Keyboard Z12",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 193,
+      "question": "Genius SlimStar C126",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 194,
+      "question": "Нужна клавиша Fn?",
+      "yes": 195,
+      "no": 198,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 195,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 196,
+      "no": 197,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 196,
+      "question": "Cherry RGB Speed Silve",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 197,
+      "question": "A4Tech Fstyler FKS11",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 198,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 199,
+      "no": 200,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 199,
+      "question": "A4Tech Fstyler FKS11",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 200,
+      "question": "DEXP Needle",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 201,
+      "question": "Нужен numpad?",
+      "yes": 202,
+      "no": 217,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 202,
+      "question": "Нужна клавиша Fn?",
+      "yes": 203,
+      "no": 210,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 203,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 204,
+      "no": 207,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 204,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 205,
+      "no": 206,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 205,
+      "question": "A4Tech KV-300H",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 206,
+      "question": "MSI Vigor GK30",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 207,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 208,
+      "no": 209,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 208,
+      "question": "HP Pavilion 300",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 209,
+      "question": "DEXP Hellfire GK-100",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 210,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 211,
+      "no": 214,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 211,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 212,
+      "no": 213,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 212,
+      "question": "IBN BM87",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 213,
+      "question": "A4Tech Bloody B500N",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 214,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 215,
+      "no": 216,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 215,
+      "question": "Acer OKW121",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 216,
+      "question": "Logitech K280e Corded",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 217,
+      "question": "Нужна клавиша Fn?",
+      "yes": 218,
+      "no": 225,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 218,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 219,
+      "no": 222,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 219,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 220,
+      "no": 221,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 220,
+      "question": "Satechi Slim W1 BT",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 221,
+      "question": "Logitech K400",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 222,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 223,
+      "no": 224,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 223,
+      "question": "Logitech Line Friends",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 224,
+      "question": "Logitech K400 PLUS",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 225,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 226,
+      "no": 229,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 226,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 227,
+      "no": 228,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 227,
+      "question": "Logitech POP Icons Keys",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 228,
+      "question": "Logitech K400 PLUS",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 229,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 230,
+      "no": 231,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 230,
+      "question": "UGREEN KU102",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 231,
+      "question": "A4Tech Fstyler FG110",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 232,
+      "question": "Клавиатура игровая?",
+      "yes": 233,
+      "no": 280,
+      "key_field": 1,
+      "negative": "Клавиатура не игровая"
+    },
+    {
+      "id": 233,
+      "question": "Клавиатура проводная?",
+      "yes": 234,
+      "no": 257,
+      "key_field": 1,
+      "negative": "Клавиатура не проводная"
+    },
+    {
+      "id": 234,
+      "question": "Нужен numpad?",
+      "yes": 235,
+      "no": 250,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 235,
+      "question": "Нужна клавиша Fn?",
+      "yes": 236,
+      "no": 243,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 236,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 237,
+      "no": 240,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 237,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 238,
+      "no": 239,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 238,
+      "question": "Genius Scorpion K220",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 239,
+      "question": "DEXP Charm",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 240,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 241,
+      "no": 242,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 241,
+      "question": "A4Tech Fstyler FKS10 White",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 242,
+      "question": "A4Tech Bloody B120N",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 243,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 244,
+      "no": 247,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 244,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 245,
+      "no": 246,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 245,
+      "question": "SteelSeries Apex 3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 246,
+      "question": "Defender Astra HB-588",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 247,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 248,
+      "no": 249,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 248,
+      "question": "A4Tech X7-G300",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 249,
+      "question": "A4Tech KKS-3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 250,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 251,
+      "no": 254,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 251,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 252,
+      "no": 253,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 252,
+      "question": "Satechi Slim W3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 253,
+      "question": "A4Tech Fstyler FK25",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 254,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 255,
+      "no": 256,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 255,
+      "question": "Genius KM160",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 256,
+      "question": "HP Pavilion 400",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 257,
+      "question": "Нужен numpad?",
+      "yes": 258,
+      "no": 265,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 258,
+      "question": "Нужна клавиша Fn?",
+      "yes": 259,
+      "no": 262,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 259,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 260,
+      "no": 261,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 260,
+      "question": "Dell KB 216",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 261,
+      "question": "Оклик 480M",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 262,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 263,
+      "no": 264,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 263,
+      "question": "Оклик 120M",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 264,
+      "question": "A4Tech Fstyler FK10",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 265,
+      "question": "Нужна клавиша Fn?",
+      "yes": 266,
+      "no": 273,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 266,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 267,
+      "no": 270,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 267,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 268,
+      "no": 269,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 268,
+      "question": "Aula AWK310",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 269,
+      "question": "Aula F3680",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 270,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 271,
+      "no": 272,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 271,
+      "question": "Attack Shark RK86",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 272,
+      "question": "Defender UltraMate SM-535",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 273,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 274,
+      "no": 277,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 274,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 275,
+      "no": 276,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 275,
+      "question": "Langtu L98",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 276,
+      "question": "JETACCESS SLIM LNE K12 BT",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 277,
+      "question": "DEXP Charm",
+      "yes": 278,
+      "no": 279,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 278,
+      "question": "Xiaomi Mi Wireless Keyboard",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 279,
+      "question": "SmartBuy SBK-231-AG-K",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 280,
+      "question": "DEXP Charm",
+      "yes": 281,
+      "no": 281,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 281,
+      "question": "Нужен numpad?",
+      "yes": 282,
+      "no": 297,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 282,
+      "question": "Нужна клавиша Fn?",
+      "yes": 283,
+      "no": 290,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 283,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 284,
+      "no": 287,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 284,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 285,
+      "no": 286,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 285,
+      "question": "DEXP Charm",
+      "yes": 0,
+      "no": 0,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 286,
+      "question": "Gembird KB-8420",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 287,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 288,
+      "no": 289,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 288,
+      "question": "Logitech K780",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 289,
+      "question": "Logitech ERGO K860 ",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 290,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 291,
+      "no": 294,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 291,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 292,
+      "no": 293,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 292,
+      "question": "Logitech K580",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 293,
+      "question": "Gembird KBW-8",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 294,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 295,
+      "no": 296,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 295,
+      "question": "JOMAA Wireless Backlit",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 296,
+      "question": "FITONES Wireless",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 297,
+      "question": "Нужна клавиша Fn?",
+      "yes": 298,
+      "no": 305,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 298,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 299,
+      "no": 302,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 299,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 300,
+      "no": 301,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 300,
+      "question": "A4Tech Fstyler FX61",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 301,
+      "question": "KEYRON Perseus",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 302,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 303,
+      "no": 304,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 303,
+      "question": "Keychron Optical Low Profile",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 304,
+      "question": "KEYRON Cassiopeia",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 305,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 306,
+      "no": 309,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 306,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 307,
+      "no": 308,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 307,
+      "question": "Deppa Max Keyboard",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 308,
+      "question": "Rii X9",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 309,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 310,
+      "no": 311,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 310,
+      "question": "Deppa Air Keyboard",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 311,
+      "question": "Logitech MK245",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 312,
+      "question": "Нужна подсветка?",
+      "yes": 313,
+      "no": 392,
+      "key_field": 1,
+      "negative": "Подсветка не нужна"
+    },
+    {
+      "id": 313,
+      "question": "Клавиатура игровая?",
+      "yes": 314,
+      "no": 361,
+      "key_field": 1,
+      "negative": "Клавиатура не игровая"
+    },
+    {
+      "id": 314,
+      "question": "Клавиатура проводная?",
+      "yes": 315,
+      "no": 346,
+      "key_field": 1,
+      "negative": "Клавиатура не проводная"
+    },
+    {
+      "id": 315,
+      "question": "Нужен Numpad?",
+      "yes": 316,
+      "no": 331,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 316,
+      "question": "Нужна клавиша Fn?",
+      "yes": 317,
+      "no": 324,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 317,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 318,
+      "no": 321,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 318,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 319,
+      "no": 320,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 319,
+      "question": "ARDOR GAMING Blade ",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 320,
+      "question": "Acer OKW127",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 321,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 322,
+      "no": 323,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 322,
+      "question": "Redragon Mitra K551",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 323,
+      "question": "Dexp First Blood",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 324,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 325,
+      "no": 328,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 325,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 326,
+      "no": 327,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 326,
+      "question": "Logitecg G813",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 327,
+      "question": "Logitech G815",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 328,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 329,
+      "no": 330,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 329,
+      "question": "Thunderobot K87R Sage Green",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 330,
+      "question": "IO Typex v2",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 331,
+      "question": "Нужна клавиша Fn?",
+      "yes": 332,
+      "no": 339,
+      "key_field": 1,
+      "negative": "Клавиша Fn не нужна"
+    },
+    {
+      "id": 332,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 333,
+      "no": 336,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 333,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 334,
+      "no": 335,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 334,
+      "question": "SteelSeries Apex 7 TKL",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 335,
+      "question": "Corsair K63",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 336,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 337,
+      "no": 338,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 337,
+      "question": "TKL Hyperior RSQ-200039",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 338,
+      "question": "VOROTEX K680",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 339,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 340,
+      "no": 343,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 340,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 341,
+      "no": 342,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 341,
+      "question": "A4Tech Bloody S98",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 342,
+      "question": "A4Tech Fstyler FS300",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 343,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 344,
+      "no": 345,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 344,
+      "question": "AULA F75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 345,
+      "question": "PANTEON T21 PRO",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 346,
+      "question": "Нужен Numpad?",
+      "yes": 347,
+      "no": 354,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 347,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 348,
+      "no": 351,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 348,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 349,
+      "no": 350,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 349,
+      "question": "Ajazz AK820 PRo",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 350,
+      "question": "Defender Pro Cleikos",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 351,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 352,
+      "no": 353,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 352,
+      "question": "Cidoo QK61",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 353,
+      "question": "Langtu GK65",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 354,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 355,
+      "no": 358,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 355,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 356,
+      "no": 357,
+      "key_field": 1,
+      "negative": ""
+    },
+    {
+      "id": 356,
+      "question": "Machenike K500F-B94",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 357,
+      "question": "VOROTEX MK87R",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 358,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 359,
+      "no": 360,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 359,
+      "question": "Royal Kludge RK89",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 360,
+      "question": "MCHOSE G75 Pro",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 361,
+      "question": "Клавиатура проводная?",
+      "yes": 362,
+      "no": 377,
+      "key_field": 1,
+      "negative": "Клавиатура беспроводная"
+    },
+    {
+      "id": 362,
+      "question": "Нужен numpad?",
+      "yes": 363,
+      "no": 370,
+      "key_field": 1,
+      "negative": "Не нужен numpad"
+    },
+    {
+      "id": 363,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 364,
+      "no": 367,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 364,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 365,
+      "no": 366,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 365,
+      "question": "Red Square Keyrox TKL Hyperion RSQ-20039",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 366,
+      "question": "A4Tech Bloody S98 Naraka",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 367,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 368,
+      "no": 369,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 368,
+      "question": "Logitech G G413",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 369,
+      "question": "Dareu EK1280s",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 370,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 371,
+      "no": 374,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 371,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 372,
+      "no": 373,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 372,
+      "question": "Royal Kludge RK65",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 373,
+      "question": "BlitzWolf BW-KB0 61",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 374,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 375,
+      "no": 376,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 375,
+      "question": "Royal Kludge R75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 376,
+      "question": "Ajazz AK820",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 377,
+      "question": "Нужен numpad?",
+      "yes": 378,
+      "no": 385,
+      "key_field": 1,
+      "negative": "Не нужен numpad"
+    },
+    {
+      "id": 378,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 379,
+      "no": 382,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 379,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 380,
+      "no": 381,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 380,
+      "question": "Razer Pro Type Ultra",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 381,
+      "question": "Aigo AG98 RGB",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 382,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 383,
+      "no": 384,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 383,
+      "question": "Ajazz AK650",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 384,
+      "question": "Aigo AG98 RGB",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 385,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 386,
+      "no": 389,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 386,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 387,
+      "no": 388,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 387,
+      "question": "Ajazz AK820 PRO",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 388,
+      "question": "AULA F75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 389,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 390,
+      "no": 391,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 390,
+      "question": "AJAZZ AK820 MAX",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 391,
+      "question": "GMNG GG-KB500XW",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 392,
+      "question": "Клавиатура игровая?",
+      "yes": 393,
+      "no": 424,
+      "key_field": 1,
+      "negative": "Клавиатура не игровая"
+    },
+    {
+      "id": 393,
+      "question": "Клавиатура проводная?",
+      "yes": 394,
+      "no": 409,
+      "key_field": 1,
+      "negative": "Клавиатура беспроводная"
+    },
+    {
+      "id": 394,
+      "question": "Нужен Numpad?",
+      "yes": 395,
+      "no": 409,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 395,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 396,
+      "no": 399,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 396,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 397,
+      "no": 398,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 397,
+      "question": "SteelSeries QX2 Red",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 398,
+      "question": "A4Tech Fstyler FS300",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 399,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 400,
+      "no": 401,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 400,
+      "question": "A4Tech Bloody S98",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 401,
+      "question": "A4Tech Fstyler FS300",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 402,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 403,
+      "no": 406,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 403,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 404,
+      "no": 405,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 404,
+      "question": "ROG Strix Scope RX",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 405,
+      "question": "A4Tech Bloody S98",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 406,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 407,
+      "no": 408,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 407,
+      "question": "Дарк Проджект CM81 Zeno",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 408,
+      "question": "Toxic Ant ZA63",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 409,
+      "question": "Нужен numpad?",
+      "yes": 410,
+      "no": 417,
+      "key_field": 1,
+      "negative": "Не нужен numpad"
+    },
+    {
+      "id": 410,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 411,
+      "no": 414,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 411,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 412,
+      "no": 413,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 412,
+      "question": "ARDOR GAMING Guardian",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 413,
+      "question": "FreeWolf K6",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 414,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 415,
+      "no": 416,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 415,
+      "question": "Rainy75 Pro",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 416,
+      "question": "AULA F75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 417,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 418,
+      "no": 421,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 418,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 419,
+      "no": 420,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 419,
+      "question": "Toxic Ant Furycube F75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 420,
+      "question": "Attack Shark K75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 421,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 422,
+      "no": 423,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 422,
+      "question": "Ajazz AK 820 Max",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 423,
+      "question": "DAREU EK75PRO",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 424,
+      "question": "Клавиатура проводная?",
+      "yes": 425,
+      "no": 440,
+      "key_field": 1,
+      "negative": "Клавиатура беспроводная"
+    },
+    {
+      "id": 425,
+      "question": "Нужен numpad?",
+      "yes": 426,
+      "no": 433,
+      "key_field": 1,
+      "negative": "Не нужен numpad"
+    },
+    {
+      "id": 426,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 427,
+      "no": 430,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 427,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 428,
+      "no": 429,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 428,
+      "question": "Razer BlackWidow V3",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 429,
+      "question": "Dareu EK1280s",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 430,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 431,
+      "no": 432,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 431,
+      "question": "Logitech K845",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 432,
+      "question": "Оклик K951X",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 433,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 434,
+      "no": 437,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 434,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 435,
+      "no": 436,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 435,
+      "question": "WOBKEY Rainy 75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 436,
+      "question": "R75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 437,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 438,
+      "no": 439,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 438,
+      "question": "Razer BLACKWIDOOW X TENKEYLESS",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 439,
+      "question": "AJAZZ AK820",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 440,
+      "question": "Нужен numpad?",
+      "yes": 441,
+      "no": 448,
+      "key_field": 1,
+      "negative": "Numpad не нужен"
+    },
+    {
+      "id": 441,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 442,
+      "no": 445,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 442,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 443,
+      "no": 444,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 443,
+      "question": "Razer Pro Type Ultra",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 444,
+      "question": "Aigo AG98",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 445,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 446,
+      "no": 447,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 446,
+      "question": "VGN Kailh Black Optical",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 447,
+      "question": "HEIJISHE YG001",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 448,
+      "question": "Нужны программируемые клавиши?",
+      "yes": 449,
+      "no": 452,
+      "key_field": 1,
+      "negative": "Программируемые клавиши не нужны"
+    },
+    {
+      "id": 449,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 450,
+      "no": 451,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 450,
+      "question": "EPOMAKER HE75",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 451,
+      "question": "Ajazz AK820 Pro",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 452,
+      "question": "Бюджет больше 5000 рублей?",
+      "yes": 453,
+      "no": 454,
+      "key_field": 1,
+      "negative": "Бюджет меньше 5000 рублей"
+    },
+    {
+      "id": 453,
+      "question": "Royal Kludge RK84",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    },
+    {
+      "id": 454,
+      "question": "HEIJISHE YG001",
+      "yes": 0,
+      "no": 0,
+      "key_field": 0,
+      "negative": ""
+    }
+  ]
+}
